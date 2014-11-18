@@ -20,7 +20,7 @@ describe User do
 					for(:email)
 	end
 	it do
-		should !allow_value('bob').
+		should !allow_value('bobbobobobob').
 					for(:email)
 	end
 	# test both min and max validation attributes are present
