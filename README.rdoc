@@ -1,27 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+RSpec and Postgresql setup for Rails Practice
 
 Things you may want to cover:
 
-* Ruby version
+Rails 4.1.6
+postgresql
+RSpec Rails 3.0.0
+FactoryGirl, Shoulda/Matchers
 
-* System dependencies
+Items belong to List, List has many items
+Lists belong to User, User has many lists
 
-* Configuration
+Validation tests including length, presence, format
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://arcane-oasis-8997.herokuapp.com/
 
 
 Please feel free to use a different markup language if you do not plan to run
