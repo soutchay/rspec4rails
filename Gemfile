@@ -1,5 +1,15 @@
 source 'https://rubygems.org'
 
+# add factory girls
+gem 'factory_girl_rails'
+
+group :development, :test do 
+	# gem for rspec testing
+	gem 'rspec-rails', '~> 3.0.0'
+	# validation association matchers
+	gem 'shoulda-matchers', require: false
+end
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
