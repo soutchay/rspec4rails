@@ -28,7 +28,7 @@ describe User do
 	it { should ensure_length_of(:password).is_at_most(20) }
 	it { should ensure_length_of(:email).is_at_most(255)}
 
-
+	it { should have_many(:lists) }
 
 
 
